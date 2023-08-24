@@ -3,14 +3,15 @@
 
 namespace SchoolProject.Core.Mapping.Students
 {
-    public partial class DepartmentProfile : Profile
+    public partial class StudentProfile : Profile
     {
-        public DepartmentProfile()
+        public StudentProfile()
         {
             GetStudentListMapping();
             GetSingleStudentMapping();
             CreateStudentMapping();
             EditStudentMapping();
+            GetStudentListPaginatedMapping();
         }
     }
 }

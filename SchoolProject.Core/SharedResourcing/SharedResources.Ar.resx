@@ -129,6 +129,12 @@
   <data name="Deleted" xml:space="preserve">
     <value>تم الحذف بنجاح</value>
   </data>
+  <data name="DepartmentId" xml:space="preserve">
+    <value>رقم القسم</value>
+  </data>
+  <data name="DepartmentIdIsNotExist" xml:space="preserve">
+    <value>رقم القسم غير موجود  </value>
+  </data>
   <data name="IsExist" xml:space="preserve">
     <value>هو موجود </value>
   </data>
@@ -137,6 +143,9 @@
   </data>
   <data name="Name" xml:space="preserve">
     <value>الاسم</value>
+  </data>
+  <data name="NameAr" xml:space="preserve">
+    <value>الأسم </value>
   </data>
   <data name="NotEmpty" xml:space="preserve">
     <value>يجب أن يكون ممتلئاً</value>
