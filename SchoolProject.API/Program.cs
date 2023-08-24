@@ -24,7 +24,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(option =>
 #region Depandancy Injection
 builder.Services.AddInfrastructureDependencies()
                 .AddServiceDependancies()
-                .AddCoreDependancies();
+                .AddCoreDependancies()
+                .AddServiceReqisteration();
 
 #endregion
 
