@@ -3,7 +3,7 @@ using SchoolProject.Data.Models;
 
 namespace SchoolProject.Core.Mapping.Students
 {
-    public partial class DepartmentProfile
+    public partial class StudentProfile
     {
         public void GetStudentListMapping()
         {

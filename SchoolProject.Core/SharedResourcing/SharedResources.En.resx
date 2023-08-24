@@ -129,6 +129,12 @@
   <data name="Deleted" xml:space="preserve">
     <value>Deleted Successfully</value>
   </data>
+  <data name="DepartmentId" xml:space="preserve">
+    <value>Department Id</value>
+  </data>
+  <data name="DepartmentIdIsNotExist" xml:space="preserve">
+    <value>is not exist</value>
+  </data>
   <data name="IsExist" xml:space="preserve">
     <value>Is Exist</value>
   </data>
@@ -137,6 +143,9 @@
   </data>
   <data name="Name" xml:space="preserve">
     <value>Name</value>
+  </data>
+  <data name="NameAr" xml:space="preserve">
+    <value>Name Arabic</value>
   </data>
   <data name="NotEmpty" xml:space="preserve">
     <value>Name Must not be Empty</value>
