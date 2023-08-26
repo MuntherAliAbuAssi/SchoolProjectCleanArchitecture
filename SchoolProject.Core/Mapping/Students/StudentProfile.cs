@@ -3,9 +3,9 @@
 
 namespace SchoolProject.Core.Mapping.Students
 {
-    public partial class StudentProfile : Profile
+    public partial class UserProfile : Profile
     {
-        public StudentProfile()
+        public UserProfile()
         {
             GetStudentListMapping();
             GetSingleStudentMapping();

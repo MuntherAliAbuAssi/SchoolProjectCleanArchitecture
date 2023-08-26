@@ -12,6 +12,9 @@
     <Folder Include="Features\Departments\Commands\Validation\" />
     <Folder Include="Features\Departments\Queries\Validation\" />
     <Folder Include="Features\Students\Queries\Validation\" />
+    <Folder Include="Features\Users\Queries\Handlers\" />
+    <Folder Include="Features\Users\Queries\Models\" />
+    <Folder Include="Mapping\Users\QueryMapping\" />
   </ItemGroup>
 
   <ItemGroup>
