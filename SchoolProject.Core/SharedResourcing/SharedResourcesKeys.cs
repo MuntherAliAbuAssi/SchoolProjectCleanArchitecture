@@ -19,7 +19,11 @@
         public const string DepartmentIdIsNotExist = "DepartmentIdIsNotExist";
         public const string DepartmentId = "DepartmentId";
         public const string NameAr = "NameAr";
-
+        public const string InvalidEmail = "InvalidEmail";
+        public const string PasswardNoEqualsConfirmPass = "PasswardNoEqualsConfirmPass";
+        public const string EmailIsExist = "EmailIsExist";
+        public const string UserNameIsExist = "UserNameIsExist";
+        public const string FailedUserRegister = "FailedUserRegister";
 
     }
 }
