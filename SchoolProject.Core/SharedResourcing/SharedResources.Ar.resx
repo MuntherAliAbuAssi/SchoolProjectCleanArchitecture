@@ -138,6 +138,9 @@
   <data name="EmailIsExist" xml:space="preserve">
     <value>الإيميل موجود مسبقاً</value>
   </data>
+  <data name="FailedUpdated" xml:space="preserve">
+    <value>حدث خطأ ما أثناء تعديل البيانات</value>
+  </data>
   <data name="FailedUserRegister" xml:space="preserve">
     <value>فشل إضافة مستخدم جديد</value>
   </data>
