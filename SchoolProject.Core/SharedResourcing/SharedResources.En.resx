@@ -123,11 +123,20 @@
   <data name="BadRequest" xml:space="preserve">
     <value>Request Can't be Undarstand</value>
   </data>
+  <data name="ChangePasswordFailed" xml:space="preserve">
+    <value>Change Password Failed !</value>
+  </data>
+  <data name="ChangePasswordSuccess" xml:space="preserve">
+    <value>Change Password Successfully !</value>
+  </data>
   <data name="Created" xml:space="preserve">
     <value>Created Successfully</value>
   </data>
   <data name="Deleted" xml:space="preserve">
     <value>Deleted Successfully</value>
+  </data>
+  <data name="DeletedFailed" xml:space="preserve">
+    <value>Deleted Failed !</value>
   </data>
   <data name="DepartmentId" xml:space="preserve">
     <value>Department Id</value>
@@ -137,6 +146,9 @@
   </data>
   <data name="EmailIsExist" xml:space="preserve">
     <value>Email Is Exist</value>
+  </data>
+  <data name="FailedUpdated" xml:space="preserve">
+    <value>Failed Updated !</value>
   </data>
   <data name="FailedUserRegister" xml:space="preserve">
     <value>Failed User Register !</value>
@@ -178,9 +190,9 @@
     <value>There are Validation Errors Or System Error</value>
   </data>
   <data name="Update" xml:space="preserve">
-    <value>Updated Successfully</value>
+    <value>Updated Successfully !</value>
   </data>
   <data name="UserNameIsExist" xml:space="preserve">
-    <value>User name is already Exist</value>
+    <value>User name is already Exist !</value>
   </data>
 </root>
