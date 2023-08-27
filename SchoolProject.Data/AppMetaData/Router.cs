@@ -39,6 +39,7 @@
             public const string Update = Prefix + "/Update";
             public const string Delete = Prefix + "/Delete" + SingleRoute;
             public const string Paginated = Prefix + "/Paginated";
+            public const string ChangeUserPassword = Prefix + "/Change-Password";
 
         }
     }
