@@ -8,11 +8,11 @@
 6.Configurations Using Data Annotations<br>
 7.Configurations using Fluent API<br>
 8.EndPoints Of Operations<br>
-9.Allow CORS
-10.Sign in 
-11.JWT Token Generation
-12.AddSwagerGen
-13.Authentication Schema And added OpenApiSecurityScheme
+9.Allow CORS<br>
+10.Sign in <br>
+11.JWT Token Generation<br>
+12.AddSwagerGen<br>
+13.Authentication Schema And added OpenApiSecurityScheme<br>
 
 
 
