@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SchoolProject.API.Base;
 using SchoolProject.Core.Features.Users.Commands.Models;
 using SchoolProject.Data.AppMetaData;
@@ -10,6 +11,7 @@ namespace SchoolProject.API.Controllers
         public UserController() { }
 
         [HttpPost(Router.UserRouting.Create)]
+        [AllowAnonymous]
         public async Task<IActionResult> Create([FromForm] CreateUserCommand user)
         {
             var response = await Mediator.Send(user);

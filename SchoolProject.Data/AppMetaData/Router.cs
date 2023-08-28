@@ -40,6 +40,11 @@
             public const string Delete = Prefix + "/Delete" + SingleRoute;
             public const string Paginated = Prefix + "/Paginated";
             public const string ChangeUserPassword = Prefix + "/Change-Password";
+        }
+        public static class LoginRouting
+        {
+            public const string Prefix = Role + "Auth";
+            public const string Login = Prefix + "/Login";
 
         }
     }

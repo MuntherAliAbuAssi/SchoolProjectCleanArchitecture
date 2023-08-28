@@ -177,6 +177,12 @@
   <data name="PasswardNoEqualsConfirmPass" xml:space="preserve">
     <value>كلمة السر غير متطابقة </value>
   </data>
+  <data name="Password" xml:space="preserve">
+    <value>كلمة السر </value>
+  </data>
+  <data name="PasswordOrUserNameNotCorrect" xml:space="preserve">
+    <value>كلمة السر او اسم المستخدم غير صحيح </value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>هذا الحقل مطلوب</value>
   </data>
@@ -192,7 +198,13 @@
   <data name="Update" xml:space="preserve">
     <value>تم التعديل بنجاح </value>
   </data>
+  <data name="UserName" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
   <data name="UserNameIsExist" xml:space="preserve">
     <value>اسم المستخدم موجود مسبقاً</value>
+  </data>
+  <data name="UserNameIsNotExist" xml:space="preserve">
+    <value>اسم المستخدم غير موجود </value>
   </data>
 </root>

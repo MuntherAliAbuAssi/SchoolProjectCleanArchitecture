@@ -177,6 +177,12 @@
   <data name="PasswardNoEqualsConfirmPass" xml:space="preserve">
     <value>Passward Not Equals Confirm Password</value>
   </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PasswordOrUserNameNotCorrect" xml:space="preserve">
+    <value>Password Or User Name No Correct </value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>This Faild is Required</value>
   </data>
@@ -192,7 +198,13 @@
   <data name="Update" xml:space="preserve">
     <value>Updated Successfully !</value>
   </data>
+  <data name="UserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
   <data name="UserNameIsExist" xml:space="preserve">
     <value>User name is already Exist !</value>
+  </data>
+  <data name="UserNameIsNotExist" xml:space="preserve">
+    <value>User Name Is Not Exist !</value>
   </data>
 </root>
