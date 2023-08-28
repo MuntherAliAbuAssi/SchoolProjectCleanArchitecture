@@ -9,6 +9,12 @@
 7.Configurations using Fluent API<br>
 8.EndPoints Of Operations<br>
 9.Allow CORS
+10.Sign in 
+11.JWT Token Generation
+12.AddSwagerGen
+13.Authentication Schema And added OpenApiSecurityScheme
+
+
 
 
 
