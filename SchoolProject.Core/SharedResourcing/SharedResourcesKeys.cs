@@ -28,6 +28,10 @@
         public const string DeletedFailed = "DeletedFailed";
         public const string ChangePasswordFailed = "ChangePasswordFailed";
         public const string ChangePasswordSuccess = "ChangePasswordSuccess";
+        public const string Password = "Password";
+        public const string UserName = "UserName";
+        public const string UserNameIsNotExist = "UserNameIsNotExist";
+        public const string PasswordOrUserNameNotCorrect = "PasswordOrUserNameNotCorrect";
 
 
     }

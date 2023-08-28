@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Features\Authentication\Commonds\Results\" />
+    <Folder Include="Features\Authentication\Queries\" />
     <Folder Include="Features\Departments\Commands\Handler\" />
     <Folder Include="Features\Departments\Commands\Models\" />
     <Folder Include="Features\Departments\Commands\Validation\" />

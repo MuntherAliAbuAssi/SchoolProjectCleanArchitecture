@@ -30,17 +30,17 @@ namespace SchoolProject.Service.Implementations
         public async Task<Student> GetStudentsByIdWithIncludeAsync(int id)
         {
             //var std = await _studentRepository.GetByIdAsync(id);
-            var student = _studentRepository.GetTableNoTracking()
+            var student = await _studentRepository.GetTableNoTracking()
                                              .Include(x => x.Department)
                                              .Where(x => x.StudID == id)
-                                             .FirstOrDefault();
+                                             .FirstOrDefaultAsync();
             return student;
         }
 
         public async Task<string> AddAysnc(Student student)
         {
             // check if the name is Exist Or not 
-            var stdIsFound = _studentRepository.GetTableNoTracking().Where(x => x.NameAr.Equals(student.NameAr) && x.NameEn.Equals(student.NameEn)).FirstOrDefault();
+            var stdIsFound = await _studentRepository.GetTableNoTracking().Where(x => x.NameAr.Equals(student.NameAr) && x.NameEn.Equals(student.NameEn)).FirstOrDefaultAsync();
             if (stdIsFound != null) return "Exist";
             // Add Student 
             await _studentRepository.AddAsync(student);
