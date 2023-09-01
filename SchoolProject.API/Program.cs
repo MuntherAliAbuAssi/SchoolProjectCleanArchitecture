@@ -88,9 +88,10 @@ app.UseMiddleware<ErrorHandlerMiddleware>();
 
 app.UseCors(CORS);
 
+app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseAuthentication();
+
 app.MapControllers();
 
 app.Run();
