@@ -41,10 +41,12 @@
             public const string Paginated = Prefix + "/Paginated";
             public const string ChangeUserPassword = Prefix + "/Change-Password";
         }
-        public static class LoginRouting
+        public static class AuthenticationRouting
         {
             public const string Prefix = Role + "Auth";
             public const string Login = Prefix + "/Login";
+            public const string RefreshToken = Prefix + "/Refresh-Token";
+            public const string VaildateToken = Prefix + "/Vaildate-Token";
 
         }
     }

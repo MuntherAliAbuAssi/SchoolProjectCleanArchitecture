@@ -5,21 +5,14 @@
 namespace SchoolProject.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class AddCustamIdentityTable : Migration
+    public partial class UpdatedUserRefreshToken2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<string>(
-                name: "Address",
-                table: "AspNetUsers",
-                type: "nvarchar(max)",
-                nullable: false,
-                defaultValue: "");
-
-            migrationBuilder.AddColumn<string>(
-                name: "Country",
-                table: "AspNetUsers",
+                name: "RefreshToken",
+                table: "UserRefreshTokens",
                 type: "nvarchar(max)",
                 nullable: false,
                 defaultValue: "");
@@ -29,12 +22,8 @@ namespace SchoolProject.Infrastructure.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "Address",
-                table: "AspNetUsers");
-
-            migrationBuilder.DropColumn(
-                name: "Country",
-                table: "AspNetUsers");
+                name: "RefreshToken",
+                table: "UserRefreshTokens");
         }
     }
 }
